@@ -56,5 +56,14 @@
             </div>
         </div>
         <br>
+
+        <script>
+            document.querySelectorAll('.ImageBox img').forEach(img => {
+            img.addEventListener('click', () => {
+            img.classList.toggle('zoomed');
+            });
+        });
+        </script>
+
     </body>
 </html>
