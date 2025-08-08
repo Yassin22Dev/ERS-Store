@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(to bottom, white, #ffeab1);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Top {
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.Sections {
+    padding: 10px;
+    color: black; 
+    text-align: left;
+}
+
+.ImageRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.Man {
+    padding: 10px;
+    color: black; 
+    text-align: left;
+}
+
+.ImageBox {
+    text-align: center;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.ImageBox img {
+    transition: transform 0.3s ease;
+}
+
+.ImageBox img:hover {
+    transform: translateY(-7px);
+}
+
+.dots {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.dots:hover {
+    transform: scale(1.5)
+}
+
+.More {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.More:hover {
+    transform: scale(1.1)
+}
+
+.Logo{
+    margin: 0;
+    font-size: 20px;
+    line-height: 1;
+}
